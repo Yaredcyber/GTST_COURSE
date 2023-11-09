@@ -7,10 +7,10 @@
 - There are two class of network this are **Geographical network and** and **Classification by component roles**.
 - 1) ### Geographically
 - Geo graphically means we classify using topography or area place this are.
-- ***#LAN local are network for locally like house to bed room with one house.**
-- ***#MAN (Metroplitan network) is we use for one town or city like Govermental bulding.**
+- ***LAN local are network for locally like house to bed room with one house.**
+- ***MAN (Metroplitan network) is we use for one town or city like Govermental bulding.**
 - ***Gevermental bank and othe most far bldings**
-- ***#WAN (wide are network) is usally most expansive and it can conect continet to continet using optifiber cable like ,internate,**
+- ***WAN (wide are network) is usally most expansive and it can conect continet to continet using optifiber cable like ,internate,**
 - 2) ### By componet role
 - #### Peer-to-peer
 -  In a peer-to-peer network, all computers are considered equal. 
