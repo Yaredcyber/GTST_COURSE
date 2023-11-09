@@ -78,10 +78,10 @@
 3) IP generated automatically.
 - The main difference is the IP-space(host holding).
 - IPv4 holds 32-bit ip address but IPv6 holds 128-bit  ip Addresses.
-- #### To know your computer ip address On windows:
+#### To know your computer ip address On windows:
 1) Opean CMD
 1) Run this code `ipconfig` then you can get your computer ip
-- #### To know your computer ip address On Linux:
+#### To know your computer ip address On Linux:
 1) Opean your terminal
 2) Run this code `ifconfig`
 ## MAC(Media Access Control) Address
