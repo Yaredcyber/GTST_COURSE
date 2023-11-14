@@ -7,10 +7,10 @@
 - There are two class of network this are **Geographical network and** and **Classification by component roles**.
 - 1) ### Geographically
 - Geo graphically means we classify using topography or area place this are.
-- ***#LAN local are network for locally like house to bed room with one house.**
-- ***#MAN (Metroplitan network) is we use for one town or city like Govermental bulding.**
+- ***LAN local are network for locally like house to bed room with one house.**
+- ***MAN (Metroplitan network) is we use for one town or city like Govermental bulding.**
 - ***Gevermental bank and othe most far bldings**
-- ***#WAN (wide are network) is usally most expansive and it can conect continet to continet using optifiber cable like ,internate,**
+- ***WAN (wide are network) is usally most expansive and it can conect continet to continet using optifiber cable like ,internate,**
 - 2) ### By componet role
 - #### Peer-to-peer
 -  In a peer-to-peer network, all computers are considered equal. 
@@ -78,10 +78,10 @@
 3) IP generated automatically.
 - The main difference is the IP-space(host holding).
 - IPv4 holds 32-bit ip address but IPv6 holds 128-bit  ip Addresses.
-- #### To know your computer ip address On windows:
+#### To know your computer ip address On windows:
 1) Opean CMD
 1) Run this code `ipconfig` then you can get your computer ip
-- #### To know your computer ip address On Linux:
+#### To know your computer ip address On Linux:
 1) Opean your terminal
 2) Run this code `ifconfig`
 ## MAC(Media Access Control) Address
