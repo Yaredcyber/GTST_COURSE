@@ -33,8 +33,8 @@ b. Active sniffing is used to sniff a switch-based network.
 - Wireshark technically is referred to as a “protocol analyzer”, but it uses only passive observation of network traffic. 
 - Wireshark supports both live and offline analysis, has a graphical  user interface, and can be used for analyzing multiple protocols
 - It is for windows and linux.
-- It can Capture and record network Traffics and Save it in ![hacked](https://github.com/Yaredcyber/Pythone/assets/147349965/0392c887-680c-47e3-9ce6-a6553db9668e)
-To start it
+- It can Capture and record network Traffics and Save it in 
+- To start it
 - You can type it on terminal
 - You can search it on the applications.
 -                        Wireshark                                
