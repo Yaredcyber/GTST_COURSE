@@ -214,6 +214,10 @@ onsoles are established with other computers over the network.
 
 
 
+https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/b47d16e1-400f-4562-81fd-ac5b0248c080
+
+
+
 
 
 
