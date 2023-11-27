@@ -1,5 +1,4 @@
 # Core of Pythone
-- <span style="color:red">This text will be displayed in red.</span>
  - ● indexing and slicing{start,stop,step}
  - ● input handling{2 methods}
  - ● Operations
