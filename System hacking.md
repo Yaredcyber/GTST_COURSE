@@ -208,7 +208,7 @@ onsoles are established with other computers over the network.
    ![show option](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/df041e57-4602-4b52-8538-a1cc7f34bd2e)
 
 7) Run/Exploit use this command ``run or exploit `` then you willget reves shell in meterpreter BOOM!!!🔥🔥🔥🔥
-- For more check my video my (vide0)[https://www.kapwing.com/videos/65639fbe9f5842a9e206eff0]
+- For more check my video my ![vide0](https://www.kapwing.com/videos/65639fbe9f5842a9e206eff0)
 
 
 
