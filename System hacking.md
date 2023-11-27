@@ -24,7 +24,7 @@
 1. Bind Shell
 2. Reverse Shell
 ## 1.Blind shell
-- A bind shell is a sort of setup where remote c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/62944980-7812-4f87-9f6e-428244f08a22)
+- A bind shell is a sort of setup where remote 
 onsoles are established with other computers over the network.
 - **In Bind shell, an attacker launches a service on the target computer, to which the attacker can connect.**
 - In a bind shell, an attacker can connect to the target computer and execute commands on the target computer.
@@ -58,7 +58,7 @@ onsoles are established with other computers over the network.
 -          sudo nc -lvpn "port" -s "your in "
 -          Exmaple: sudo nc -lvpn 87 -s 192.160.0.0
 - on Attacker computer now listening 
-(https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-0a34-44b4-9d4c-893b9e2e4e9e)
+c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-0a34-44b4-9d4c-893b9e2e4e9e)
 
 ### B is on client/victem side
 
