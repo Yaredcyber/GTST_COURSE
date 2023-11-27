@@ -24,7 +24,8 @@
 1. Bind Shell
 2. Reverse Shell
 ## 1.Blind shell
-- A bind shell is a sort of setup where remote consoles are established with other computers over the network.
+- A bind shell is a sort of setup where remote c![finding](https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/62944980-7812-4f87-9f6e-428244f08a22)
+onsoles are established with other computers over the network.
 - **In Bind shell, an attacker launches a service on the target computer, to which the attacker can connect.**
 - In a bind shell, an attacker can connect to the target computer and execute commands on the target computer.
 - To launch a bind shell, the attacker must have the IP address of the victim to access the target computer.
