@@ -57,7 +57,7 @@
 -          sudo nc -lvpn "port" -s "your in "
 -          Exmaple: sudo nc -lvpn 87 -s 192.160.0.0
 - on Attacker computer now listening 
-
+(https://github.com/Yaredcyber/GTST_COURSE/assets/147349965/90d40f21-0a34-44b4-9d4c-893b9e2e4e9e)
 
 ### B is on client/victem side
 
@@ -68,7 +68,8 @@
 - when you Enter the attacker gain reverse shell
 
 
- ##  Web servers
+ ##  Web servers![attaker]
+
 - On the hardware side, a web server is a computer that stores web server software and a website's component files (for example, HTML documents, images, CSS stylesheets, and JavaScript files).
 - A web server connects to the Internet and supports physical data interchange with other devices connected to the web.
 - It is A computer software and hardware that uses HTTP and HTTPS to provide a website.
@@ -194,63 +195,6 @@
 
 
 
-
-
-● Villain will give u powershell code
-● It is Easy to create.
-● Also You can use these 3 methods to make it undetectable.
-● generate os=windows/linux lhost=wlan0/192.168.1.3
-Running
-We can run the command we got on our victim’s powershell
-And it is really amazing, you can bypass microsoft defender.
-…
-● To see the sessions(hacked
-PC)
-○ sessions
-● To get into that session
-○ shell <ID>
-○ You can start the name and
-TAB
-But… we dont get the victims Powershell???
-● Now it is time to think like a hacker and getting plan how you will give the
-payload to the person.
-● There are serveral ways
-○ You can create a exe file from that payload
-○ You can build/get a aurorun usb and do USB drop Attack
-○ You can do social engineering and help them to run it by their own.
-Powershell script to exe
-https://ps2exe.azurewebsites.net/ -> You can also use some exe icon changer softwares to make it look legit.
-Does it really work?
-● WHen i clicked on the
-software(topsercte…exe)
-● It worked i got shell.
-● We have bypassed Defender but not some
-antivirus
-● (as you see smadav has detected it but still
-didnt do nothing, if you block or not)
-Additional …
-➔ Other critical payloads that are heavily used by penetration testers during security
-assessments are
-◆ Empire,
-◆ Cobalt Strike payloads.
-➔ These are not in the scope of this course, but feel free to research them in our free
-time as they can provide a significant amount of insight into how professional
-penetration testers perform their assessments on high-value targets.
-➔ https://www.youtube.com/watch?v=t6Lhp5ult1Q&pp=ygUPZW1waXJlIHBheWxv
-YWRz
-➔ https://www.youtube.com/watch?v=ErPKP4Ms28s
-➔ To Go Further on Malware development, you have to learn Programming languages
-that are quick and effective on any machines(C,C++,..)
-➔ A Server that Malware connects to is called C2 Server(Command & Control Server).
-◆ So when you develop a malware you have to consider the best way to
-communicate with the C2 Servers too.
-Payload on WAN.
-● As you saw we were trying the payloads on LAN network. Does it run on
-WAN?
-● TO do this we will need a thing called port forwarding.
-● Port forwarding inherently gives people outside of your network more access to
-your computer. Giving access or accessing unsafe ports can be risky, as threat actors
-and other people with malicious intents can then easily get full control of your device
 ●
 ## Ngrok
 - Ngrok is one of the port forwarding tools.
