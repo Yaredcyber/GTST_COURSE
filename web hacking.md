@@ -11,12 +11,12 @@
 - An Example: of a URI can be ``ISBN 0-486-35557-4.``
 - An Example: of an URL is ``https://www.javatpoint.com.`` Parts of URL
 A URL consists of five parts:   Example we use : ``https://blog.hubspot.com/marketing``
-1. Scheme: tells web servers which protocol to use when it accesses a page on your website example according to give ``https://`` is scheme
-2. Subdomain: is acording to example ``blog`` is subdomain
-a)If your website is like a house, your subdomains are like specific rooms in that house.
+1)  Scheme: tells web servers which protocol to use when it accesses a page on your website example according to give ``https://`` is scheme
+2) Subdomain: is acording to example ``blog`` is subdomain
+a) If your website is like a house, your subdomains are like specific rooms in that house.
 b) A subdomain in a URL indicates which particular page of your website the web browser should serve up.
-c. For instance, subdomains like “blog” or “offers” will provide your website’s blog page or offers page.
-d. Subdomains also bucket your website into its main content categories and shows Google and your visitors that there's more information on your site than just a homepage. ( meet, docs, google.com ).
+c) For instance, subdomains like “blog” or “offers” will provide your website’s blog page or offers page.
+d) Subdomains also bucket your website into its main content categories and shows Google and your visitors that there's more information on your site than just a homepage. ( meet, docs, google.com ).
 3. Top-level domain: specifies what type of entity your organization registers as on the internet.
 a) Generic Top level domain(gTLD): .gov .org .net
 b) Country code Top-level domain(ccTLD): .et .ru
@@ -43,7 +43,7 @@ and how to handle requests for that domain.
 -           Host example.com
 -           Dig example.com
 -           Nslookup example.com
-            host example.com
+-           host example.com
 ## Types of DNS records
 - **There are Many DNS record Types but lets see some**
 ## A Record ( Address )
@@ -127,12 +127,12 @@ and how to handle requests for that domain.
 
 2. **POST Request -**  Example: https://example.com 
 ```
--      POST /login HTTP/1.1
--      HOST: example.com
--      ..
+       POST /login HTTP/1.1
+       HOST: example.com
        ..
        ..
--     Usename=yared&password=yared123
+       ..
+      Usename=yared&password=yared123
 
 ```
 
